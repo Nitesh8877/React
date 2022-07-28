@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Greet from './Greet';
+import Hello from './Hello';
+import UserGreeting from './ConditionalRendering/UserGreeting';
+import ElementVariable from './ConditionalRendering/ElementVariable';
+import TernanryOperator from './ConditionalRendering/TernarayOperator';
+import ShortCircuit from './ConditionalRendering/ShortCircuit';
+import Counter from './ConditionalRendering/Counter';
+import Navbar from './ComponentWebsite/Navbar';
+import Banner from './ComponentWebsite/Banner';
+import CardSection from './ComponentWebsite/CardSection'
+import Footer from './ComponentWebsite/Footer';
+import Discover from './ComponentWebsite/Discover';
 function App() {
+
   return (
+   
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>Hello word this is my first project</h1>
+    {/* <Greet name="nitesh" />
+    <Greet  name="madhu"/>
+    <Greet  name="anjali"/>
+    <Hello/> */}
+{/* <UserGreeting/>
+<ElementVariable/>
+<TernanryOperator/>
+<ShortCircuit/>
+<Counter/> */}
+<Navbar/>
+<Banner/>
+<CardSection/>
+<Discover/>
+<Footer/>
+
     </div>
   );
 }
